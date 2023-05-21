@@ -72,6 +72,15 @@ li {
   background-color: #000;
 }
 
+.dev {
+  display: flex;
+  justify-content: end;
+  /* margin-bottom: 5px; */
+  transform: translateY(-7px);
+  font-size: small;
+  color: #ddd;
+}
+
 a {
   color: #000;
 }

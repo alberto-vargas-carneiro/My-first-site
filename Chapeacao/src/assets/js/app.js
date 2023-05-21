@@ -83,15 +83,15 @@ function previousImage() {
   carouselImages.style.transform = `translateX(-${imageIndex * 100}%)`;
 }
 
-// carousel()
+carousel()
 function pararSlide() {
   clearInterval(parar);
 }
 
 btProx.addEventListener("mouseover", pararSlide);
-// btProx.addEventListener('mouseout', carousel)
+btProx.addEventListener('mouseout', carousel)
 btAnt.addEventListener("mouseover", pararSlide);
-// btAnt.addEventListener('mouseout', carousel)
+btAnt.addEventListener('mouseout', carousel)
 btProx.addEventListener("click", nextImage);
 btAnt.addEventListener("click", previousImage);
 
